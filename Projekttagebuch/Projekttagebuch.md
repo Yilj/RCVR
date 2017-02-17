@@ -39,16 +39,29 @@
 * Probeweißes Fahren des Autos über das Gaspedal
 
 **25.11.16 @Schule**
-* Pedal testen & verbessern
+* Testen verschiedener Änderungen am Arduino Code mit Verschidenen Limits
+* Testen von Verschiedenen möglickeiten zum Glätten der Gaspedalwerte
 
 **9.12.16 @Schule**
 * Verbesserung der Arduino Schaltung mit Oszilloskop
 
 **22. – 23.12.16 @Julian**
-* Bauen der Lenkradhalterung
+* Zurechtsägen der für die Lenkradhalterung erforderlichen Holzbrettern
+* Berechnen von notwendigen Winkeln der Lenkradhalterung und zeichnen der Skizzen
+* Verschrauben der Winkel zur Befestigung der Bretter
+* Konstruieren der Lenkachse durch Kohlefaserrohre
+* Konstruieren der Potentiometer Halterung zum auslesen des Lenkradausschlages
+* Anbringen von Anschlägen zur Beschränkung des Lenkausschlages
+* Anlöten von Verlängerungskabeln
 
 **13.01.17 @Schule**
 * Reichweite testen
 
 **20.01.17 @Schule**
-*
+* nix, nada, + Englisch Vokabeln
+
+**30.01.17 @Julian**
+* 
+
+**17.02.17 @Schule**
+* Erweitern und Aktualisieren der projekttagebuch Einträge
