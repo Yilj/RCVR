@@ -30,7 +30,13 @@
 * Feststellen der größten "Wiederstandsverschiebung" zwischen zwei Kontakten
 
 **24.11.16 @Daniel**
-* Pedal auslesen
+* Herstellen einer Gaspedal Testhalterung
+* Anlöten von Verlängerungskabeln an die Gaspedal Kontakte
+* Feststellen des passenden Gegenwiederstands für einen Spannungsteiler, um einen möglichst großen Messbereich zu erreichen
+* Auslesen der Gaspedal Messwerte über den Arduino
+* Mappen der Gaspedalmesswerte auf entsprechende Fernsteuerungswerte
+* Kombinieren der Arduino Codes für Gaspedal und Fernbedienung
+* Probeweißes Fahren des Autos über das Gaspedal
 
 **25.11.16 @Schule**
 * Pedal testen & verbessern
