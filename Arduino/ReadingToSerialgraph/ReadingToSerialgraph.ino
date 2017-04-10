@@ -50,16 +50,18 @@ void loop()
 
   //Serial.println('$' + String(gasAverage) + ' ' + String(gasRading + 20) + ';');
   //Serial.println('$' + String(steeringAverage) + ' ' + String(steeringReading) + ';');
-  //Serial.println(String(steeringAverage) + "-" + String(gasAverage));
+  //Serial.println('$' + String(steeringAverage) + ' ' + String(gasAverage) + ';');
+  Serial.println(String(steeringAverage));
 
   int gasValue = map(gasAverage, 310, 530, 85, 0);
   int steeringValue = map(steeringAverage, 0, 1023, 40, 250);
 
-  Serial.println(String(gasAverage) + " ausgegeben wird " + String(gasValue));
+  //Serial.println(String(gasAverage) + " ausgegeben wird " + String(gasValue));
   //Serial.println(String(steeringAverage) + " ausgegeben wird " + String(steeringValue));
 
   analogWrite(3, steeringValue);
   analogWrite(5, gasValue);
-  
+
   delay(10);
+  //delay(20);
 }
