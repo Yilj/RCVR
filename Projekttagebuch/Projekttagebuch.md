@@ -65,3 +65,17 @@
 
 **17.02.17 @Schule**
 * Erweitern und Aktualisieren der projekttagebuch Einträge
+
+**10.04.17**
+* Mehrfaches Austauschen des Lenkrad-Potentiometers auf der suche nach einer Idealen Lenkrad Kurve
+* Modelieren des VR-Lenkrads
+* Entwickeln eines Arduino Codes zum Senden der Lenraddrehung an Unity
+* Entwickeln eines Unity Programm zum Einlesen der Lenkradrehung
+* Testen und Verbessern der "Lenkraddrehung" in VR
+
+**04.05.17 @Nicolas**
+* Reparieren der Auto Fernbedienung
+* Verbessern des Arduino Codes für das Fahren des Autos
+* Suche nach dem Ursprung der Verzögerungen beim Lenken des Autos
+* Optimieren des Erforderlichen Lenkradauschschlags
+* Testfahren des Autos mit Gaspedal und Lenkred
