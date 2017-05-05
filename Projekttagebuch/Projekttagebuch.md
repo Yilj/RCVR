@@ -61,16 +61,25 @@
 * nix, nada, + Englisch Vokabeln
 
 **30.01.17 @Julian**
-* 
+* Analysieren der Ausgabewerte durch SerialPlotter
+* Verbessern des Smoothing im Arduino-Code durch Seriellen-Graphen
 
 **17.02.17 @Schule**
 * Erweitern und Aktualisieren der projekttagebuch Einträge
 
-**10.04.17**
+**25.02.17 @Christoph**
+* Bauen eines VR Lenkrades in Blender
+* Smoothen der Gas- und Lenkradwerte mittels des Arduino-Codes
+* Optimieren der Berechnungsgeschwindigkeit
+* Verwenden von neuen Kondensatorgrößen zum weiteren smoothing der Ausgabwerte
+* Testfahrt mit Lenkrad und Gaspedal -> Ermittlung der Lenk-und Gasverzögerung
+
+
+**10.04.17 @Nicolas**
 * Mehrfaches Austauschen des Lenkrad-Potentiometers auf der suche nach einer Idealen Lenkrad Kurve
-* Modelieren des VR-Lenkrads
-* Entwickeln eines Arduino Codes zum Senden der Lenraddrehung an Unity
-* Entwickeln eines Unity Programm zum Einlesen der Lenkradrehung
+* Modelieren der VR-Lenkradbewegung
+* Entwickeln eines Arduino Codes zum Senden der Lenkraddrehung an Unity
+* Entwickeln eines Unity Programm zum Einlesen der Lenkraddrehung
 * Testen und Verbessern der "Lenkraddrehung" in VR
 
 **04.05.17 @Nicolas**
@@ -78,4 +87,4 @@
 * Verbessern des Arduino Codes für das Fahren des Autos
 * Suche nach dem Ursprung der Verzögerungen beim Lenken des Autos
 * Optimieren des Erforderlichen Lenkradauschschlags
-* Testfahren des Autos mit Gaspedal und Lenkred
+* Testfahren des Autos mit Gaspedal und Lenkrad
