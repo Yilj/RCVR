@@ -88,3 +88,6 @@
 * Suche nach dem Ursprung der Verzögerungen beim Lenken des Autos
 * Optimieren des Erforderlichen Lenkradauschschlags
 * Testfahren des Autos mit Gaspedal und Lenkrad
+
+**19.05.17 @Schule**
+* Bearbeiten des Projekttabebuchs
