@@ -106,12 +106,12 @@ void loop() {
 
 	//CONSTRAIN & MAP
 		//GAS
-		gasValue = constrain(gasAverage, gasInputNull, gasInputFull);
+		gasAverage = constrain(gasAverage, gasInputNull, gasInputFull);
 		if(gasDirection) { //forward
-			gasValue = map(gasValue, gasInputNull, gasInputFull, gasOutputNull, gasOutputForward);
+			gasValue = map(gasAverage, gasInputNull, gasInputFull, gasOutputNull, gasOutputForward);
 		}
 		else { //backward
-			gasValue = map(gasValue, gasInputNull, gasInputFull, gasOutputNull, gasOutputBackward);
+			gasValue = map(gasAverage, gasInputNull, gasInputFull, gasOutputNull, gasOutputBackward);
 		}
 		gasValue += gasTransitionAdjustment;
 		//STEERING
@@ -127,25 +127,25 @@ void loop() {
 			gasDirection = !gasDirection;
 			//calculate newGasValue
 			if(gasDirection) { //forward
-				newGasValue = map(gasValue, gasInputNull, gasInputFull, gasOutputNull, gasOutputForward);
+				newGasValue = map(gasAverage, gasInputNull, gasInputFull, gasOutputNull, gasOutputForward);
 			}
 			else { //backward
-				newGasValue = map(gasValue, gasInputNull, gasInputFull, gasOutputNull, gasOutputBackward);
+				newGasValue = map(gasAverage, gasInputNull, gasInputFull, gasOutputNull, gasOutputBackward);
 			}
 			//claculate gasTransitionAdjustment
 			gasTransitionAdjustment = gasValue - newGasValue;
 		}
 		//update gasTransitionAdjustment
 		else if(gasTransitionAdjustment != 0) {
-      //closer than 5
-      if(gasTransitionAdjustment + 5 > 0 || gasTransitionAdjustment - 5 < 0) {
-        gasTransitionAdjustment = 0;
-      }
-      //above 0
+      	//closer than 5
+      	if(gasTransitionAdjustment <= 5 || gasTransitionAdjustment >= -5) {
+        		gasTransitionAdjustment = 0;
+      	}
+      	//above 0
 			else if(gasTransitionAdjustment > 0) {
 				gasTransitionAdjustment -= 5;
 			}
-      //below 0
+      	//below 0
 			else {
 				gasTransitionAdjustment += 5;
 			}
