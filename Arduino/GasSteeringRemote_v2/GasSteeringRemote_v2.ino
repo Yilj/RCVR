@@ -66,6 +66,9 @@ void setup() {
 			gasReadings[i] = 0;
 		}
 
+  //SERIAL
+    Serial.begin(9600);
+
 	//INITIALIZE
 		//gas
 		analogWrite(gasOutputPin, gasOutputInitialtize);
@@ -132,7 +135,7 @@ void loop() {
 			else { //backward
 				newGasValue = map(gasAverage, gasInputNull, gasInputFull, gasOutputNull, gasOutputBackward);
 			}
-			//claculate gasTransitionAdjustment
+			//clculate gasTransitionAdjustment
 			gasTransitionAdjustment = gasValue - newGasValue;
 		}
 		//update gasTransitionAdjustment
@@ -155,8 +158,11 @@ void loop() {
 		analogWrite(gasOutputPin, gasValue);
 		analogWrite(steeringOutputPin, steeringValue);
 
+  //SERIAL
+  Serial.println(String(steeringValue) + ',' + String(gasValue));
+
 	//END
-	delay(5);
+	delay(20);
 }
 
 
