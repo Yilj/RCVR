@@ -4,7 +4,7 @@ using System.IO.Ports;
 
 public class SerialRotation : MonoBehaviour {
 
-    SerialPort stream = new SerialPort("COM8", 9600);
+    privat SerialPort stream = new SerialPort("COM8", 9600);
 
     void Start()
     {
