@@ -89,5 +89,25 @@
 * Optimieren des Erforderlichen Lenkradauschschlags
 * Testfahren des Autos mit Gaspedal und Lenkrad
 
+** 12.05.17 @Nicolas **
+* Vefollständigen und Testen des Rückwärtsgang Codes
+
 **19.05.17 @Schule**
 * Bearbeiten des Projekttabebuchs
+
+**20.05.17 @Nicolas**
+* Testen der Kammera mittels Empfängerbrille
+* Testen der Steuerung in Straßenbedingungen
+
+**01.07.17 @Nicolas**
+* Optimierung der Kammeraanzeige in Unity
+* Optimieren der Lenkradbewegung in Unity
+* Löten der Schaltung auf Platine
+* Importieren eines Autmodells in Unity
+* Bugfixing
+* Testen der Steuerung des Autos durch VR
+* Programierung von Fahzeuggeräuschen in Unity
+
+**03.07.17 @Nicolas** 
+* Verfollständigen des Projekttagebuches
+* Verfollständigen des Quellcodes
