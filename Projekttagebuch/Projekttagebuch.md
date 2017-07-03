@@ -25,7 +25,7 @@
 * Probeweiße Fernsteuerung des RC Autos über die Software am PC
 
 **17.11.16 @Meisterwerkstadt Ramadan:**
-* Ausbauen eines Gaspedals aus einem Ranault Unfallauto
+* Ausbauen eines Gaspedals aus einem Renault Unfallauto
 * Messen aller möglichen Wiederstände über alle Kontakte des Gaspedals
 * Feststellen der größten "Wiederstandsverschiebung" zwischen zwei Kontakten
 
@@ -39,8 +39,8 @@
 * Probeweißes Fahren des Autos über das Gaspedal
 
 **25.11.16 @Schule**
-* Testen verschiedener Änderungen am Arduino Code mit Verschidenen Limits
-* Testen von Verschiedenen möglickeiten zum Glätten der Gaspedalwerte
+* Testen verschiedener Änderungen am Arduino Code mit verschiedenen Limits
+* Testen von verschiedenen Möglichkeiten zum Glätten der Gaspedalwerte
 
 **9.12.16 @Schule**
 * Verbesserung der Arduino Schaltung mit Oszilloskop
@@ -57,9 +57,6 @@
 **13.01.17 @Schule**
 * Reichweite testen
 
-**20.01.17 @Schule**
-* nix, nada, + Englisch Vokabeln
-
 **30.01.17 @Julian**
 * Analysieren der Ausgabewerte durch SerialPlotter
 * Verbessern des Smoothing im Arduino-Code durch Seriellen-Graphen
@@ -71,13 +68,13 @@
 * Bauen eines VR Lenkrades in Blender
 * Smoothen der Gas- und Lenkradwerte mittels des Arduino-Codes
 * Optimieren der Berechnungsgeschwindigkeit
-* Verwenden von neuen Kondensatorgrößen zum weiteren smoothing der Ausgabwerte
+* Verwenden von neuen Kondensatorgrößen zum weiteren Smoothing der Ausgabewerte
 * Testfahrt mit Lenkrad und Gaspedal -> Ermittlung der Lenk-und Gasverzögerung
 
 
 **10.04.17 @Nicolas**
-* Mehrfaches Austauschen des Lenkrad-Potentiometers auf der suche nach einer Idealen Lenkrad Kurve
-* Modelieren der VR-Lenkradbewegung
+* Mehrfaches Austauschen des Lenkrad-Potentiometers auf der Suche nach einer Idealen Lenkrad Kurve
+* Modellieren der VR-Lenkradbewegung
 * Entwickeln eines Arduino Codes zum Senden der Lenkraddrehung an Unity
 * Entwickeln eines Unity Programm zum Einlesen der Lenkraddrehung
 * Testen und Verbessern der "Lenkraddrehung" in VR
@@ -86,28 +83,29 @@
 * Reparieren der Auto Fernbedienung
 * Verbessern des Arduino Codes für das Fahren des Autos
 * Suche nach dem Ursprung der Verzögerungen beim Lenken des Autos
-* Optimieren des Erforderlichen Lenkradauschschlags
+* Optimieren des Erforderlichen Lenkradausschlags
 * Testfahren des Autos mit Gaspedal und Lenkrad
 
 ** 12.05.17 @Nicolas **
-* Vefollständigen und Testen des Rückwärtsgang Codes
+* Vervollständigen und Testen des Rückwärtsgang Codes
 
 **19.05.17 @Schule**
-* Bearbeiten des Projekttabebuchs
+* Bearbeiten des Projekttagebuchs
 
 **20.05.17 @Nicolas**
-* Testen der Kammera mittels Empfängerbrille
+* Testen der Kamera mittels Empfängerbrille
 * Testen der Steuerung in Straßenbedingungen
 
 **01.07.17 @Nicolas**
-* Optimierung der Kammeraanzeige in Unity
+* Optimierung der Kameraanzeige in Unity
 * Optimieren der Lenkradbewegung in Unity
 * Löten der Schaltung auf Platine
-* Importieren eines Autmodells in Unity
+* Importieren eines Automodells in Unity
 * Bugfixing
 * Testen der Steuerung des Autos durch VR
-* Programierung von Fahzeuggeräuschen in Unity
+* Programmierung von Fahrzeuggeräuschen in Unity
 
-**03.07.17 @Nicolas** 
-* Verfollständigen des Projekttagebuches
-* Verfollständigen des Quellcodes
+**03.07.17 @Schule** 
+* Vervollständigen des Projekttagebuches
+* Vervollständigen des Quellcodes
+* Revuepassieren
