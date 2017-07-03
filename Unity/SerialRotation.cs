@@ -18,9 +18,7 @@ public class SerialRotation : MonoBehaviour {
         string[] inputs = input.Split(',');
         float steering = int.Parse(inputs[0]);
         float gas = int.Parse(inputs[1]);
-        GameObject.Find("AutoDownload").GetComponent<AudioSource>().pitch = (180 - gas) / 180;
-        Debug.Log(180 - gas);
-        //Debug.Log(value);
+        GameObject.Find("AutoModel").GetComponent<AudioSource>().pitch = (180 - gas) / 180;
         steering = (steering - 240) / (30 - 240) * (270 - 90) + 180;
         transform.eulerAngles= new Vector3(steering, 180, 0);
         stream.BaseStream.Flush();
