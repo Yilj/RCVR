@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 306da30e8410e4f408b98fe77a255943
+timeCreated: 1499354493
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: brake_pedal
+    100004: //RootNode
+    100006: door_l
+    100008: door_r
+    100010: engine
+    100012: gas_pedal
+    100014: hood
+    100016: speedometer
+    100018: steering_wheel
+    100020: trunk
+    100022: wheel_bl
+    100024: wheel_br
+    100026: wheel_fl
+    100028: wheel_fr
+    100030: windshield
+    400000: body
+    400002: brake_pedal
+    400004: //RootNode
+    400006: door_l
+    400008: door_r
+    400010: engine
+    400012: gas_pedal
+    400014: hood
+    400016: speedometer
+    400018: steering_wheel
+    400020: trunk
+    400022: wheel_bl
+    400024: wheel_br
+    400026: wheel_fl
+    400028: wheel_fr
+    400030: windshield
+    2300000: body
+    2300002: brake_pedal
+    2300004: door_l
+    2300006: door_r
+    2300008: engine
+    2300010: gas_pedal
+    2300012: hood
+    2300014: speedometer
+    2300016: steering_wheel
+    2300018: trunk
+    2300020: wheel_bl
+    2300022: wheel_br
+    2300024: wheel_fl
+    2300026: wheel_fr
+    2300028: windshield
+    3300000: body
+    3300002: brake_pedal
+    3300004: door_l
+    3300006: door_r
+    3300008: engine
+    3300010: gas_pedal
+    3300012: hood
+    3300014: speedometer
+    3300016: steering_wheel
+    3300018: trunk
+    3300020: wheel_bl
+    3300022: wheel_br
+    3300024: wheel_fl
+    3300026: wheel_fr
+    3300028: windshield
+    4300000: windshield
+    4300002: wheel_br
+    4300004: wheel_bl
+    4300006: body
+    4300008: engine
+    4300010: brake_pedal
+    4300012: gas_pedal
+    4300014: speedometer
+    4300016: trunk
+    4300018: hood
+    4300020: door_l
+    4300022: door_r
+    4300024: wheel_fl
+    4300026: steering_wheel
+    4300028: wheel_fr
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
