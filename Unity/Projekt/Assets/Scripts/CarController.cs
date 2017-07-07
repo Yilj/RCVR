@@ -5,7 +5,7 @@ using System.IO.Ports;
 
 public class CarController : MonoBehaviour {
 
-    public enum COM { COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9 }; // Enum of different possible arduino com ports
+    public enum COM { COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, COM10 }; // Enum of different possible arduino com ports
 
     public COM derPort = COM.COM1; // Variable to store cuttently selected port
 
@@ -15,7 +15,7 @@ public class CarController : MonoBehaviour {
         switch (derPort) // Construct serial port with selected com
         {
             case COM.COM1:
-                arduinoSerialPort = new SerialPort("COM1", 9600);
+                arduinoSerialPort = new SerialPort(@"\\.\COM12", 9600);
                 break;
             case COM.COM2:
                 arduinoSerialPort = new SerialPort("COM2", 9600);
@@ -40,6 +40,9 @@ public class CarController : MonoBehaviour {
                 break;
             case COM.COM9:
                 arduinoSerialPort = new SerialPort("COM9", 9600);
+                break;
+            case COM.COM10:
+                arduinoSerialPort = new SerialPort("COM10", 9600);
                 break;
             default:
                 break;
