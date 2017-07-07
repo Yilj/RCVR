@@ -86,7 +86,7 @@
 * Optimieren des Erforderlichen Lenkradausschlags
 * Testfahren des Autos mit Gaspedal und Lenkrad
 
-** 12.05.17 @Nicolas **
+**12.05.17 @Nicolas**
 * Vervollständigen und Testen des Rückwärtsgang Codes
 
 **19.05.17 @Schule**
